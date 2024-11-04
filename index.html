@@ -1,401 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <title>SUBHASISH - Personal Portfolio</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <head>
+        <meta charset="utf-8">
+        <title>TECHNEST Official - IT Services Website </title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <body>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
         </div>
-    </div>
-    <!-- Spinner End -->
+        <!-- Spinner End -->
 
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="text-primary fw-bold m-0">Subhasish</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#skill" class="nav-item nav-link">Skills</a>
-                <a href="#service" class="nav-item nav-link">Services</a>
-            </div>
-            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
-                <h1 class="text-primary fw-bold m-0">Subhasish</h1>
-            </a>
-            <div class="navbar-nav me-auto py-0">
-                <a href="#project" class="nav-item nav-link">Projects</a>
-                <a href="#team" class="nav-item nav-link">Team</a>
-                <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
+        <!-- Navbar start -->
+        <div class="container-fluid nav-bar">
+            <div class="container">
+                <nav class="navbar navbar-light navbar-expand-lg py-4">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-primary fw-bold mb-0">TECH<span class="text-dark">nest</span> </h1>
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="service.html" class="nav-item nav-link">Services</a>
+                            
+                            
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu bg-light">
+                                    
+                                    
+                                    <a href="team.html" class="dropdown-item">Our Team</a>
+                                    </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <button class="btn-search btn btn-primary btn-md-square me-4 rounded-circle d-none d-lg-inline-flex" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                        <a href="" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Hier Now</a>
+                    </div>
+                </nav>
             </div>
         </div>
-    </nav>
-    <!-- Navbar End -->
+        <!-- Navbar End -->
 
 
-    <!-- Header Start -->
-    <div class="container-fluid bg-light my-6 mt-0" id="home">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
-                    <h3 class="text-primary mb-3">I'm</h3>
-                    <h1 class="display-3 mb-3">Subhasish Nayak</h1>
-                    <h2 class="typed-text-output d-inline"></h2>
-                    <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, Apps Designer, 3D model designer , vidio editing ,photo editing ,Brand lodo designer</div>
-                    <div class="d-flex align-items-center pt-5">
-                        <a href="Subhasish_resume.pdf" class="btn btn-primary py-3 px-4 me-5" download>Download RESUME</a>
-
-                        <button type="button" class="btn-play" data-bs-toggle="modal"
-        data-src="/img/WhatsApp Video 2024-10-30 at 02.06.10_bff728b3.mp4" data-bs-target="#videoModal">
-    <span></span>
-</button>
-
-                        <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control bg-transparent p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <img class="img-fluid" src="img/profile.png" alt="">
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+        <!-- Hero Start -->
+        <div class="container-fluid bg-light py-6 my-6 mt-0">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-7 col-md-12">
+                        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-4 animated bounceInDown">Welcome to TechNest</small>
+                        <h1 class="display-1 mb-4 animated bounceInDown">Book <span class="text-primary">Design</span> For Your Creative Idea</h1>
+                        <a href="" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft">Hier Now</a>
+                        <a href="" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft">Know More</a>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <img src="img/WhatsApp Image 2024-10-31 at 03.37.00_cf7c0974.jpg" class="img-fluid rounded animated zoomIn" alt="">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Header End -->
+        <!-- Hero End -->
 
 
-    <!-- Video Modal Start -->
-<div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content rounded-0">
-            <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">PROMO Video</h3>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <!-- 16:9 aspect ratio -->
-                <div class="ratio ratio-16x9">
-                    <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always" allow="autoplay"></iframe>
+       <!-- About Start -->
+<div class="container-fluid py-6">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-7 wow bounceInUp" data-wow-delay="0.3s">
+                <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">About Us</small>
+                <h1 class="display-5 mb-4">Trusted by  Clients</h1>
+                <p class="mb-4">At TechNest, we are dedicated to providing innovative tech solutions that empower businesses and enhance user experiences. Our team is committed to delivering high-quality services tailored to meet the unique needs of each client. We pride ourselves on our customer-centric approach, ensuring that we go above and beyond to exceed expectations.</p>
+                <div class="row g-4 text-dark mb-5">
+                    <div class="col-sm-6">
+                        <i class="fas fa-laptop-code text-primary me-2"></i>Cutting-Edge Technology Solutions
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fas fa-headset text-primary me-2"></i>24/7 Technical Support
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fas fa-cogs text-primary me-2"></i>Flexible Customization Options
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fas fa-thumbs-up text-primary me-2"></i>High-Quality Results with Guaranteed Satisfaction
+                    </div>
                 </div>
+                <a href="/about.html" class="btn btn-primary py-3 px-5 rounded-pill">Learn More About Us<i class="fas fa-arrow-right ps-2"></i></a>
             </div>
+            
         </div>
     </div>
 </div>
-<!-- Video Modal End -->
+<!-- About End -->
 
-<!-- Script to Play and Stop Video on Modal Open/Close -->
-<script>
-    const videoModal = document.getElementById('videoModal');
-    const video = document.getElementById('video');
 
-    // Event listener for when the modal opens
-    videoModal.addEventListener('show.bs.modal', function (event) {
-        const button = event.relatedTarget; // Button that triggered the modal
-        const videoSrc = button.getAttribute('data-src'); // Extract video URL from data-src attribute
-        video.setAttribute('src', videoSrc); // Set the video source
-    });
-
-    // Event listener for when the modal is closed
-    videoModal.addEventListener('hide.bs.modal', function () {
-        video.setAttribute('src', ''); // Clear the video source to stop playback
-    });
-</script>
-
-    <!-- About Start -->
-    <div class="container-xxl py-6" id="about">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="d-flex align-items-center mb-5">
-                        <div class="years flex-shrink-0 text-center me-4">
-                            <h1 class="display-1 mb-0">1</h1>
-                            <h5 class="mb-0">Year</h5>
+<!-- Fact Start-->
+<div class="container-fluid faqt py-6">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-lg-7">
+                <div class="row g-4">
+                    <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.3s">
+                        <div class="faqt-item bg-primary rounded p-4 text-center">
+                            <i class="fas fa-users fa-4x mb-4 text-white"></i>
+                            <h1 class="display-4 fw-bold" data-toggle="counter-up">15</h1>
+                            <p class="text-dark text-uppercase fw-bold mb-0">Happy Clients</p>
                         </div>
-                        <h3 class="lh-base mb-0">of working experience as a web designer & developer</h3>
                     </div>
-                    <p class="mb-4">Join us for an immersive experience in technology, where creativity meets innovation, and ideas turn into reality. From hands-on workshops to thrilling competitions, Technest is your gateway to the future of tech.</p>
-                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Exclusive Meetings and Skill Development</p>
-                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>High-Quality Designs and Competitive Challenges</p>
-                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Timely Schedules and Organized work done</p>
-                    <!-- <a class="btn btn-primary py-3 px-5 mt-3" href="">Learn More</a>
-                    </div> -->
-                    
-                <!-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="row g-3 mb-4">
-                        <div class="col-sm-6">
-                            <img class="img-fluid rounded" src="img/about-1.jpg" alt="">
+                    <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.5s">
+                        <div class="faqt-item bg-primary rounded p-4 text-center">
+                            <i class="fas fa-user-tie fa-4x mb-4 text-white"></i>
+                            <h1 class="display-4 fw-bold" data-toggle="counter-up">1</h1>
+                            <p class="text-dark text-uppercase fw-bold mb-0">Dedicated Developer</p>
                         </div>
-                        <div class="col-sm-6">
-                            <img class="img-fluid rounded" src="img/about-2.jpg" alt="">
-                        </div>
-                    </div> -->
-                    <!-- <div class="d-flex align-items-center mb-3">
-                        <h5 class="border-end pe-3 me-3 mb-0">Happy Clients</h5>
-                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">1234</h2>
                     </div>
-                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p>
-                    <div class="d-flex align-items-center mb-3">
-                        <h5 class="border-end pe-3 me-3 mb-0">Projects Completed</h5>
-                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">1234</h2>
-                    </div> -->
-                    <!-- <p class="mb-0">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet diam ipsum clita labore dolor duo clita.</p>
+                    <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.7s">
+                        <div class="faqt-item bg-primary rounded p-4 text-center">
+                            <i class="fas fa-check fa-4x mb-4 text-white"></i>
+                            <h1 class="display-4 fw-bold" data-toggle="counter-up">3</h1>
+                            <p class="text-dark text-uppercase fw-bold mb-0">Projects Completed</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div> -->
+            
+        </div>
     </div>
-    <!-- About End -->
+</div>
+<!-- Fact End -->
 
-
-    <!-- Expertise Start -->
-    <div class="container-xxl py-6 pb-5" id="skill">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="display-5 mb-5">Skills & Experience</h1>
-                    <p class="mb-4">Passionate about transforming ideas into impactful digital experiences. With a focus on detail and quality, I strive to bring creativity and innovation to every project I work on.</p>
- <h3 class="mb-4">My Skills</h3>
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">HTML</h6>
-                                    <h6 class="font-weight-bold">95%</h6>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">CSS</h6>
-                                    <h6 class="font-weight-bold">85%</h6>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div><div class="skill mb-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">AI Promting</h6>
-                                    <h6 class="font-weight-bold">90%</h6>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">3D design</h6>
-                                    <h6 class="font-weight-bold">50%</h6>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar btn-lg" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="col-md-6">
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">Javascript</h6>
-                                    <h6 class="font-weight-bold">90%</h6>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">Angular JS</h6>
-                                    <h6 class="font-weight-bold">95%</h6>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">Wordpress</h6>
-                                    <h6 class="font-weight-bold">85%</h6>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <div class="skill mb-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">CAPCUT </h6>
-                                    <h6 class="font-weight-bold">85%</h6>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
-                        <li class="nav-item w-50">
-                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Experience</button>
-                        </li>
-                        <li class="nav-item w-50">
-                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Education</button>
-                        </li>
-                    </ul>
-                    <div class="tab-content">
-                        <div id="tab-1" class="tab-pane fade show p-0 active">
-                            <div class="row gy-5 gx-4">
-                                <div class="col-sm-6">
-                                    <h5>Full Stack Intern</h5>
-                                    <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">Aug - Oct 2024</p>
-                                    <h6 class="mb-0">NextZone Tecnology</h6>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h5>AIML intern</h5>
-                                    <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">Oct - Dec 2024</p>
-                                    <h6 class="mb-0">EXTION </h6>
-                                </div>
-                                <!-- <div class="col-sm-6">
-                                    <h5>Web Designer</h5>
-                                    <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2000 - 2045</p>
-                                    <h6 class="mb-0">Apex Software Inc</h6>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h5>Apps Designer</h5>
-                                    <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2000 - 2045</p>
-                                    <h6 class="mb-0">Apex Software Inc</h6>
-                                </div> -->
-                            </div>
-                        </div>
-                        <div id="tab-2" class="tab-pane fade show p-0">
-                            <div class="row gy-5 gx-4">
-                                <div class="col-sm-6">
-                                    <h5>10th Schooling</h5>
-                                    <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2008-20020</p>
-                                    <h6 class="mb-0">Saraswati Sishu Vidya MAndir</h6>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h5>12th High School(Science)</h5>
-                                    <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2000 - 2022</p>
-                                    <h6 class="mb-0">Bidwan Residental College</h6>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h5>B.TECH</h5>
-                                    <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2022 - 2026</p>
-                                    <h6 class="mb-0">Gandhi Engineering College</h6>
-                                </div>
-                                <!-- <div class="col-sm-6">
-                                    <h5>Apps Design</h5>
-                                    <hr class="text-primary my-2">
-                                    <p class="text-primary mb-1">2000 - 2045</p>
-                                    <h6 class="mb-0">Cambridge University</h6>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
+        <!-- Modal Video
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Video Presentation</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                16:9 aspect ratio -->
+                <!-- <div class="ratio ratio-16x9">
+                    <video class="embed-responsive-item" id="video" controls allowfullscreen autoplay>
+                        <source src="/img/WhatsApp Video 2024-10-30 at 02.06.11_10f9330c.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Expertise End -->
+</div> -->
+
+        <!-- Fact End -->
 
 
-  <!-- Service Start -->
-<div class="container-fluid bg-light my-5 py-6" id="service">
+       <!-- Service Start -->
+<div class="container-fluid service py-6">
     <div class="container">
-        <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="col-lg-6">
-                <h1 class="display-5 mb-0">Our Services</h1>
-            </div>
-            <div class="col-lg-6 text-lg-end">
-                <a class="btn btn-primary py-3 px-5" href="#contact">Contact Us</a>
-            </div>
+        <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+            <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Services</small>
+            <h1 class="display-5 mb-5">What We Offer</h1>
         </div>
         <div class="row g-4">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
-                    <div class="bg-icon flex-shrink-0 mb-3">
-                        <i class="fa fa-crop-alt fa-2x text-dark"></i>
-                    </div>
-                    <div class="ms-sm-4">
-                        <h4 class="mb-3">Innovative Design</h4>
-                        <span>Our creative design solutions transform ideas into reality, ensuring unique and engaging experiences.</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
-                    <div class="bg-icon flex-shrink-0 mb-3">
-                        <i class="fa fa-code-branch fa-2x text-dark"></i>
-                    </div>
-                    <div class="ms-sm-4">
-                        <h4 class="mb-3">Graphics & Branding</h4>
-                        <span>Enhancing brand visibility through high-quality graphic designs and branding strategies.</span>
+            <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
+                <div class="bg-light rounded service-item">
+                    <div class="service-content d-flex align-items-center justify-content-center p-4">
+                        <div class="service-content-icon text-center">
+                            <i class="fas fa-video fa-7x text-primary mb-4"></i>
+                            <h4 class="mb-3">Video Editing</h4>
+                            <p class="mb-4">Professional video editing to bring your vision to life.</p>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
-                    <div class="bg-icon flex-shrink-0 mb-3">
-                        <i class="fa fa-code fa-2x text-dark"></i>
-                    </div>
-                    <div class="ms-sm-4">
-                        <h4 class="mb-3">Web Development</h4>
-                        <span>Delivering seamless, user-friendly websites tailored to your needs and optimized for performance.</span>
+            <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.3s">
+                <div class="bg-light rounded service-item">
+                    <div class="service-content d-flex align-items-center justify-content-center p-4">
+                        <div class="service-content-icon text-center">
+                            <i class="fas fa-image fa-7x text-primary mb-4"></i>
+                            <h4 class="mb-3">Photo Editing</h4>
+                            <p class="mb-4">Enhance your images with professional photo editing services.</p>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
-                    <div class="bg-icon flex-shrink-0 mb-3">
-                        <i class="fa fa-laptop-code fa-2x text-dark"></i>
+            <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.5s">
+                <div class="bg-light rounded service-item">
+                    <div class="service-content d-flex align-items-center justify-content-center p-4">
+                        <div class="service-content-icon text-center">
+                            <i class="fas fa-cube fa-7x text-primary mb-4"></i>
+                            <h4 class="mb-3">3D Model Design</h4>
+                            <p class="mb-4">Create stunning 3D models for your projects and presentations.</p>
+                            
+                        </div>
                     </div>
-                    <div class="ms-sm-4">
-                        <h4 class="mb-3">UI/UX Design</h4>
-                        <span>Creating intuitive and visually appealing interfaces that provide an exceptional user experience.</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
+                <div class="bg-light rounded service-item">
+                    <div class="service-content d-flex align-items-center justify-content-center p-4">
+                        <div class="service-content-icon text-center">
+                            <i class="fas fa-globe fa-7x text-primary mb-4"></i>
+                            <h4 class="mb-3">Website Design</h4>
+                            <p class="mb-4">Build beautiful and responsive websites tailored to your needs.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.3s">
+                <div class="bg-light rounded service-item">
+                    <div class="service-content d-flex align-items-center justify-content-center p-4">
+                        <div class="service-content-icon text-center">
+                            <i class="fas fa-mobile-alt fa-7x text-primary mb-4"></i>
+                            <h4 class="mb-3">App Design</h4>
+                            <p class="mb-4">Design intuitive and user-friendly mobile applications.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.5s">
+                <div class="bg-light rounded service-item">
+                    <div class="service-content d-flex align-items-center justify-content-center p-4">
+                        <div class="service-content-icon text-center">
+                            <i class="fas fa-paint-brush fa-7x text-primary mb-4"></i>
+                            <h4 class="mb-3">Logo Design</h4>
+                            <p class="mb-4">Craft unique logos that represent your brand identity.</p>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
@@ -406,444 +290,727 @@
 
 
 
-    <!-- Projects Start -->
-    <div class="container-xxl py-6 pt-5" id="project">
-        <div class="container">
-            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
-                <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">My Projects</h1>
+        <!-- Events Start -->
+        <div class="container-fluid event py-6">
+            <div class="container">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Projects</small>
+                    <h1 class="display-5 mb-5">Our  Gallery</h1>
                 </div>
-                <div class="col-lg-6 text-lg-end">
-                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
-                        <li class="mx-3 active" data-filter="*">All Projects</li>
-                        <li class="mx-3" data-filter=".first">Web Design</li>
-                        <li class="mx-3" data-filter=".second">Graphic Design</li>
+                <div class="tab-class text-center">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp" data-wow-delay="0.1s">
+                        <li class="nav-item p-2">
+                            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
+                                <span class="text-dark" style="width: 150px;">Recent Projects</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex py-2 mx-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
+                                <span class="text-dark" style="width: 150px;">Web Design</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-3">
+                                <span class="text-dark" style="width: 150px;">Photo & Video Editing</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-4">
+                                <span class="text-dark" style="width: 150px;">3D Model & Animation</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-5">
+                                <span class="text-dark" style="width: 150px;">Logo Design</span>
+                            </a>
+                        </li>
                     </ul>
-                </div>
-            </div>
-            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
-                <div class="col-lg-4 col-md-6 portfolio-item first">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/WhatsApp Image 2024-10-30 at 03.07.50_2a83ede1.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/WhatsApp Image 2024-10-30 at 03.07.50_2a83ede1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://main--testservertechfest.netlify.app/"><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/WhatsApp Image 2024-10-30 at 03.16.20_9dde7466.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/WhatsApp Image 2024-10-30 at 03.16.20_9dde7466.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/WhatsApp Image 2024-10-30 at 13.20.25_55e5c693.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/WhatsApp Image 2024-10-30 at 13.20.25_55e5c693.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/WhatsApp Image 2024-10-30 at 13.33.24_383f81d9.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/WhatsApp Image 2024-10-30 at 13.33.24_383f81d9.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/WhatsApp Image 2024-10-30 at 13.38.57_94bf8601.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/WhatsApp Image 2024-10-30 at 13.38.57_94bf8601.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/WhatsApp Image 2024-10-30 at 13.42.07_ec0217bb.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/WhatsApp Image 2024-10-30 at 13.42.07_ec0217bb.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Projects End -->
-
-
-    <!-- Team Start -->
-    <div class="container-xxl py-6 pb-5" id="team">
-        <div class="container">
-            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">Team Member</h1>
-                </div>
-                <!-- <div class="col-lg-6 text-lg-end">
-                    <a class="btn btn-primary py-3 px-5" href="">Contact Us</a>
-                </div> -->
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item position-relative">
-                        <img class="img-fluid rounded" src="img/WhatsApp Image 2024-10-30 at 03.24.21_889983c0.jpg" alt="">
-                        <div class="team-text bg-white rounded-end p-4">
-                            <div>
-                                <h5>Subhasish Nayak</h5>
-                                <span>Founder</span>
-                            </div>
-                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item position-relative">
-                        <img class="img-fluid rounded" src="img/team-2.jpg" alt="">
-                        <div class="team-text bg-white rounded-end p-4">
-                            <div>
-                                <h5>Full Name</h5>
-                                <span>Designer</span>
-                            </div>
-                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item position-relative">
-                        <img class="img-fluid rounded" src="img/team-3.jpg" alt="">
-                        <div class="team-text bg-white rounded-end p-4">
-                            <div>
-                                <h5>Full Name</h5>
-                                <span>Designer</span>
-                            </div>
-                            <i class="fa fa-arrow-right fa-2x text-primary"></i>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
-
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid bg-light py-5 my-5" id="testimonial">
-        <div class="container-fluid py-5">
-            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Testimonial</h1>
-            <div class="row justify-content-center">
-                <div class="col-lg-3 d-none d-lg-block">
-                    <div class="testimonial-left h-100">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-1.jpg" alt="">
-                                <div class="testimonial-icon">
-                                    <i class="fa fa-quote-left text-primary"></i>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-30 at 03.07.50_2a83ede1.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Web Design</h4>
+                                                    <a href="img/WhatsApp Image 2024-10-30 at 03.07.50_2a83ede1.jpg" data-lightbox="event-1" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-30 at 13.20.25_55e5c693.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Web Design</h4>
+                                                    <a href="img/WhatsApp Image 2024-10-30 at 13.20.25_55e5c693.jpg" data-lightbox="event-2" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-31 at 04.08.48_45aff56a.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Photo Editing</h4>
+                                                    <a href="img/WhatsApp Image 2024-10-31 at 04.08.48_45aff56a.jpg" data-lightbox="event-4" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
+                                            <div class="event-img position-relative">
+                                                <video class="img-fluid rounded w-100" autoplay loop muted playsinline>
+                                                    <source src="img/WhatsApp Video 2024-10-31 at 04.32.50_39f8ce45.mp4" type="video/mp4">
+                                                    Your browser does not support the video tag.
+                                                </video>
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Video Editing</h4>
+                                                    <!-- Change the anchor tag -->
+                                                    <a href="img/WhatsApp Video 2024-10-31 at 04.32.50_39f8ce45.mp4" data-lightbox="event-3" data-title="Video Editing" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-31 at 04.11.02_632b3c66.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Photo Editing</h4>
+                                                    <a href="img/WhatsApp Image 2024-10-31 at 04.11.02_632b3c66.jpg" data-lightbox="event-5" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
+                                            <div class="event-img position-relative">
+                                                <video class="img-fluid rounded w-100" autoplay loop muted playsinline>
+                                                    <source src="img/WhatsApp Video 2024-10-31 at 04.47.32_ff1da4d5.mp4" type="video/mp4">
+                                                    Your browser does not support the video tag.
+                                                </video>
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">3D Animation</h4>
+                                                    <!-- Change the anchor tag -->
+                                                    <a href="img/WhatsApp Video 2024-10-31 at 04.47.32_ff1da4d5.mp4" data-lightbox="event-3" data-title="Video Editing" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-31 at 04.58.54_c9ababf0.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">3D Model</h4>
+                                                    <a href="img/WhatsApp Image 2024-10-31 at 04.58.54_c9ababf0.jpg" data-lightbox="event-7" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-31 at 05.05.03_c839ca65.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Logo </h4>
+                                                    <a href="img/WhatsApp Image 2024-10-31 at 05.05.03_c839ca65.jpg" data-lightbox="event-17" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-                            <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
                         </div>
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-2.jpg" alt="">
-                                <div class="testimonial-icon">
-                                    <i class="fa fa-quote-left text-primary"></i>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-30 at 03.07.50_2a83ede1.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Web Design</h4>
+                                                    <a href="img/WhatsApp Image 2024-10-30 at 03.07.50_2a83ede1.jpg" data-lightbox="event-8" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-30 at 13.20.25_55e5c693.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Web Design</h4>
+                                                    <a href="img/WhatsApp Image 2024-10-30 at 13.20.25_55e5c693.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-30 at 13.38.57_94bf8601.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Web Design</h4>
+                                                    <a href="img/WhatsApp Image 2024-10-30 at 13.38.57_94bf8601.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-                            <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
                         </div>
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-3.jpg" alt="">
-                                <div class="testimonial-icon">
-                                    <i class="fa fa-quote-left text-primary"></i>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img//WhatsApp Image 2024-10-31 at 04.08.48_45aff56a.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Photo Editing</h4>
+                                                    <a href="img/WhatsApp Image 2024-10-31 at 04.08.48_45aff56a.jpg" data-lightbox="event-10" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <video class="img-fluid rounded w-100" autoplay loop muted playsinline>
+                                                    <source src="img/WhatsApp Video 2024-10-31 at 04.32.50_39f8ce45.mp4" type="video/mp4">
+                                                    Your browser does not support the video tag.
+                                                </video>
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Video Editing</h4>
+                                                    <!-- Change the anchor tag -->
+                                                    <a href="img/WhatsApp Video 2024-10-31 at 04.32.50_39f8ce45.mp4" data-lightbox="event-3" data-title="Video Editing" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-31 at 04.11.02_632b3c66.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Photo Editing</h4>
+                                                    <a href="img/WhatsApp Image 2024-10-31 at 04.11.02_632b3c66.jpg" data-lightbox="event-11" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-31 at 20.53.12_41cdffaa.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Photography</h4>
+                                                    <a href="img/WhatsApp Image 2024-10-31 at 20.53.12_41cdffaa.jpg" data-lightbox="event-11" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-31 at 20.53.13_75761957.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Photography</h4>
+                                                    <a href="img/WhatsApp Image 2024-10-31 at 20.53.13_75761957.jpg" data-lightbox="event-11" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-31 at 20.53.13_aba0eed8.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Photography</h4>
+                                                    <a href="img/WhatsApp Image 2024-10-31 at 20.53.13_aba0eed8.jpg" data-lightbox="event-11" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-31 at 20.53.14_71e2dd01.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Photography</h4>
+                                                    <a href="img/WhatsApp Image 2024-10-31 at 20.53.14_71e2dd01.jpg" data-lightbox="event-11" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <p class="fs-5 fst-italic">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-                            <hr class="w-25 mx-auto">
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
+                        </div>
+                        <div id="tab-4" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-11-01 at 01.18.07_ad0819d0.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">3D Model</h4>
+                                                    <a href="img/WhatsApp Image 2024-11-01 at 01.18.07_ad0819d0.jpg" data-lightbox="event-12" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-11-01 at 01.18.08_0c7f909d.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">3D Model</h4>
+                                                    <a href="img/WhatsApp Image 2024-11-01 at 01.18.08_0c7f909d.jpg" data-lightbox="event-13" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-11-01 at 01.18.08_5ff2450f.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">3D Model</h4>
+                                                    <a href="img/WhatsApp Image 2024-11-01 at 01.18.08_5ff2450f.jpg" data-lightbox="event-12" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <video class="img-fluid rounded w-100" autoplay loop muted playsinline>
+                                                    <source src="img/WhatsApp Video 2024-10-31 at 04.47.32_ff1da4d5.mp4" type="video/mp4">
+                                                    Your browser does not support the video tag.
+                                                </video>
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">3D Animation</h4>
+                                                    <!-- Change the anchor tag -->
+                                                    <a href="img/WhatsApp Video 2024-10-31 at 04.47.32_ff1da4d5.mp4" data-lightbox="event-3" data-title="Video Editing" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-5" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-10-31 at 05.05.03_c839ca65.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Logo </h4>
+                                                    <a href="img/WhatsApp Image 2024-10-31 at 05.05.03_c839ca65.jpg" data-lightbox="event-17" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-11-01 at 01.43.21_0be6e0ba.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Logo </h4>
+                                                    <a href="img/WhatsApp Image 2024-11-01 at 01.43.21_0be6e0ba.jpg" data-lightbox="event-17" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/WhatsApp Image 2024-11-01 at 01.43.21_e39d2d47.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Logo </h4>
+                                                    <a href="img/WhatsApp Image 2024-11-01 at 01.43.21_e39d2d47.jpg" data-lightbox="event-17" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 d-none d-lg-block">
-                    <div class="testimonial-right h-100">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/testimonial-1.jpg" alt="">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/testimonial-2.jpg" alt="">
-                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/testimonial-3.jpg" alt="">
-                    </div>
-                </div>
-                <section>
-                    <div class="container" style="max-width: 900px; margin: auto;">
-                        <div class="text-center pt-5">
-                          <h2 class="display-3" style="font-size: 2.5rem; font-weight: bold; color: #d91515; font-family: 'Arial', sans-serif;">
-                            FAQs
-                          </h2>
-                        </div>
-                        <div class="row mt-5 align-items-center">
-                          <div class="col-lg-6 mb-4">
-                            <img src="/img/logo.png" class="img-fluid faq-image" alt="FAQ Illustration">
-                          </div>
-                          <div class="col-lg-6">
-                            <!-- Accordion content goes here -->
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <style>
-                        .faq-image {
-                          max-width: 10%; /* Ensures the image scales responsively within the container */
-                          width: 80%; /* Set width to match the FAQ text size visually */
-                          height: auto; /* Maintains image aspect ratio */
-                          border-radius: 7px;
-                          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-                        }
-                      
-                        @media (max-width: 768px) {
-                          .faq-image {
-                            width: 100%; /* Adjusts the image to full width on smaller screens */
-                          }
-                        }
-                      </style>
-                      
-                        <div class="col-lg-6">
-                          <div class="accordion accordion-flush" id="accordion-flush">
-                            <div class="accordion-item" style="border: 1px solid #ddd; border-radius: 5px; margin-bottom: 15px;">
-                              <h5 class="accordion-header">
-                                <button class="accordion-button collapsed" style="font-weight: bold; background-color: #2267d6; color: #ffffff; font-family: 'Arial', sans-serif;" type="button"
-                                  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                  What are the service hours for Technest?
-                                </button>
-                              </h5>
-                              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion-flush">
-                                <div class="accordion-body" style="padding: 15px;">
-                                  <p style="margin: 0; color: #34495e; font-family: 'Georgia', serif;">Our services are available Monday to Friday, from 9:00 AM to 6:00 PM. For special events or urgent requests, feel free to reach out, and we will do our best to accommodate.</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="accordion-item" style="border: 1px solid #ddd; border-radius: 5px; margin-bottom: 15px;">
-                              <h5 class="accordion-header">
-                                <button class="accordion-button collapsed" style="font-weight: bold; background-color: #2267d6; color: #ffffff; font-family: 'Arial', sans-serif;" type="button"
-                                  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                  Can I make payments using credit cards or other currencies?
-                                </button>
-                              </h5>
-                              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
-                                <div class="accordion-body" style="padding: 15px;">
-                                  <p style="margin: 0; color: #34495e; font-family: 'Georgia', serif;">No we only take payment through netbanking . For international payments, additional transaction fees may apply.</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="accordion-item" style="border: 1px solid #ddd; border-radius: 5px; margin-bottom: 15px;">
-                              <h5 class="accordion-header">
-                                <button class="accordion-button collapsed" style="font-weight: bold; background-color: #2267d6; color: #ffffff; font-family: 'Arial', sans-serif;" type="button"
-                                  data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                  When is pricing finalized for services?
-                                </button>
-                              </h5>
-                              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
-                                <div class="accordion-body" style="padding: 15px;">
-                                  <p style="margin: 0; color: #34495e; font-family: 'Georgia', serif;">Our pricing is discussed and agreed upon after the initial consultation meeting, where we go over your specific needs and the scope of work.</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="accordion-item" style="border: 1px solid #ddd; border-radius: 5px; margin-bottom: 15px;">
-                              <h5 class="accordion-header">
-                                <button class="accordion-button collapsed" style="font-weight: bold; background-color: #2267d6; color: #ffffff; font-family: 'Arial', sans-serif;" type="button"
-                                  data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                  Will I receive the source files for my order?
-                                </button>
-                              </h5>
-                              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
-                                <div class="accordion-body" style="padding: 15px;">
-                                  <p style="margin: 0; color: #34495e; font-family: 'Georgia', serif;">Yes, once the project is complete and payment is finalized, we will provide all source files related to your order, as outlined in our agreement.</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="accordion-item" style="border: 1px solid #ddd; border-radius: 5px; margin-bottom: 15px;">
-                              <h5 class="accordion-header">
-                                <button class="accordion-button collapsed" style="font-weight: bold; background-color: #2267d6; color: #ffffff; font-family: 'Arial', sans-serif;" type="button"
-                                  data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                  Do you offer post-project support?
-                                </button>
-                              </h5>
-                              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordion-flush">
-                                <div class="accordion-body" style="padding: 15px;">
-                                  <p style="margin: 0; color: #34495e; font-family: 'Georgia', serif;">We offer post-project support and maintenance options. Feel free to ask us about available packages tailored to your specific needs.</p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                  
-                   
-            </div>
-        </div>
-    </div>
-
-    <!-- Testimonial End -->
-
-
-    <!-- Contact Start -->
-    <div class="container-xxl pb-5" id="contact">
-        <div class="container py-5">
-            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">Let's Work Together</h1>
-                </div>
-                
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="mb-2">My Place</p>
-                    <h3 class="fw-bold">Bhubaneswar,Odisha</h3>
-                    <hr class="w-100">
-                    <p class="mb-2">Call me:</p>
-                    <h3 class="fw-bold">+91 7750096113</h3>
-                    <hr class="w-100">
-                    <p class="mb-2">Mail me:</p>
-                    <h3 class="fw-bold">subhasishnayak38@gmail.com</h3>
-                    <hr class="w-100">
-                    <p class="mb-2">Follow me:</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-primary me-2" href="https://x.com/SubhasishNayak_?t=mF-fH5Q7wbzz5UBgibOG2Q&s=08"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href="https://www.instagram.com/subhasish_nayak_?igsh=OXF2ODZscGc1dzRw"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href="https://github.com/subhasish12345"><i class="fab fa-github"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/subhasish-nayak-67a257280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="mb-4">Feel free to reach out! Send us a message directly to our email.</p>
-                    <form id="contact-form" onsubmit="sendEmail(event)">
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-                                    <label for="name">Your Name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
-                                    <label for="email">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px" required></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                
-                <script>
-                    function sendEmail(event) {
-                        event.preventDefault(); // Prevent form from submitting
-                
-                        // Get form values
-                        const name = document.getElementById('name').value;
-                        const email = document.getElementById('email').value;
-                        const subject = document.getElementById('subject').value;
-                        const message = document.getElementById('message').value;
-                
-                        // Create a mailto link
-                        const mailtoLink = `mailto:subhasishnayak38@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
-                
-                        // Open the mailto link in the user's email client
-                        window.location.href = mailtoLink;
-                    }
-                </script>
-                
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Contact End -->
+        <!-- Events End -->
 
 
-    <!-- Map Start -->
-    <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container-xxl pt-5 px-0">
-            <div class="bg-dark">
-                <iframe
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3729.4556513533607!2d86.51669099999998!3d20.813299000000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDQ4JzQ3LjkiTiA4NsKwMzEnMDAuMSJF!5e0!3m2!1sen!2sin!4v1730239812044!5m2!1sen!2sin"
-                frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
+  <!-- Contact Us Start -->
+<div class="container-fluid contact py-6 wow bounceInUp" data-wow-delay="0.1s" id="contact">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-1">
+                <img src="img/WhatsApp Image 2024-11-01 at 02.03.02_e2fe4662.jpg" class="img-fluid h-100 w-100 rounded-start" style="object-fit: cover; opacity: 0.7;" alt="">
+            </div>
+            <div class="col-10">
+                <div class="border-bottom border-top border-primary bg-light py-5 px-4">
+                    <div class="text-center">
+                        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Contact Us</small>
+                        <h1 class="display-5 mb-5">Let's Work Together</h1>
+                    </div>
+                    <div class="row g-4 form">
+                        <div class="col-lg-4 col-md-6">
+                            <input type="text" class="form-control border-primary p-2" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <input type="email" class="form-control border-primary p-2" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <input type="text" class="form-control border-primary p-2" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="col-lg-12">
+                            <textarea class="form-control border-primary p-2" placeholder="Leave a message here" id="message" style="height: 100px" required></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary py-3 px-5 rounded-pill" type="submit" onclick="sendEmail(event)">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <img src="img/WhatsApp Image 2024-11-01 at 02.03.02_e2fe4662.jpg" class="img-fluid h-100 w-100 rounded-end" style="object-fit: cover; opacity: 0.7;" alt="">
             </div>
         </div>
     </div>
-    <!-- Map End -->
+</div>
+<!-- Contact Us End -->
+
+<script>
+    function sendEmail(event) {
+        event.preventDefault(); // Prevent form from submitting
+
+        // Get form values
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const subject = document.getElementById('subject').value;
+        const message = document.getElementById('message').value;
+
+        // Create a mailto link
+        const mailtoLink = `mailto:technestofficialss@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+
+        // Open the mailto link in the user's email client
+        window.location.href = mailtoLink;
+    }
+</script>
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid bg-dark text-white py-4">
+        
+        <!-- Team Start -->
+<div class="container-fluid team py-6">
+    <div class="container">
+        <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+            <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Team</small>
+            <h1 class="display-5 mb-5">Team Members</h1>
+        </div>
+        <div class="row g-4">
+            <!-- Team Member 1 -->
+            <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="0.1s">
+                <div class="team-item rounded">
+                    <img class="img-fluid rounded-top" src="img/profile.png" alt="Subhasish Profile">
+                    <div class="team-content text-center py-3 bg-dark rounded-bottom">
+                        <h4 class="text-primary">Subhasish</h4>
+                        <p class="text-white mb-0">Founder</p>
+                    </div>
+                    <div class="team-icon d-flex flex-column justify-content-center m-4">
+                        <button class="share btn btn-primary btn-md-square rounded-circle mb-2" onclick="shareWebsite()"><i class="fas fa-share-alt"></i></button>
+                        <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href="https://x.com/SubhasishNayak_?t=mF-fH5Q7wbzz5UBgibOG2Q&s=08" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href="https://www.instagram.com/subhasish_nayak_/profilecard/?igsh=OXF2ODZscGc1dzRw" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href="https://github.com/subhasish12345"><i class="fab fa-github"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href="https://www.linkedin.com/in/subhasish-nayak-67a257280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                           </div>
+                </div>
+            </div>
+            <!-- Additional Team Members can be added similarly -->
+        </div>
+    </div>
+</div>
+<!-- Team End -->
+
+<script>
+    function shareWebsite() {
+        if (navigator.share) {
+            navigator.share({
+                title: 'Check out our team at Subhasish Nayak',
+                text: 'Meet our dedicated team members and explore our work!',
+                url: window.location.href
+            })
+            .then(() => console.log('Website shared successfully'))
+            .catch((error) => console.error('Error sharing website:', error));
+        } else {
+            alert("Share feature is not supported in this browser.");
+        }
+    }
+</script>
+
+
+
+        <!-- Testimonial Start -->
+        <!-- <div class="container-fluid py-6">
+            <div class="container">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Testimonial</small>
+                    <h1 class="display-5 mb-5">What Our Customers says!</h1>
+                </div>
+                <div class="owl-carousel owl-theme testimonial-carousel testimonial-carousel-1 mb-4 wow bounceInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="m-0">Profession</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="m-0">Profession</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="m-0">Profession</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-4.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="m-0">Profession</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel testimonial-carousel testimonial-carousel-2 wow bounceInUp" data-wow-delay="0.3s">
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="m-0">Profession</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="m-0">Profession</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="m-0">Profession</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-4.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="m-0">Profession</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Testimonial End -->
+
+
+       
+       
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h1 class="text-primary">TECH<span class="text-dark">NEST</span></h1>
+                            <div class="footer-icon d-flex">
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href="https://x.com/SubhasishNayak_?t=mF-fH5Q7wbzz5UBgibOG2Q&s=08" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href="https://www.instagram.com/tech.nest_official/profilecard/?igsh=MW1lZWc0ZjNwaXZicQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href="https://github.com/subhasish12345"><i class="fab fa-github"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href="https://www.linkedin.com/in/technest-officiai-172812332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Contact Us</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <p><i class="fa fa-map-marker-alt text-primary me-2"></i> Bhubaneswar, INDIA</p>
+                                <p><i class="fa fa-phone-alt text-primary me-2"></i> (+91) 7750096113</p>
+                                <p><i class="fas fa-envelope text-primary me-2"></i> subhasishnayak38@gmail</p>
+                                </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Social Gallery</h4>
+                            <div class="row g-2">
+                                <div class="col-4">
+                                     <img src="img/menu-01.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/menu-02.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/menu-03.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/menu-04.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/menu-05.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/menu-06.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright bg-dark py-4">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom text-secondary" href="#">www.subhasishnayak.com</a>, All Right Reserved By Subhu😊.
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>https://subhasishnayak.netlify.app/</a>,All right reserved By SUBHU😊</span>
                     </div>
                     
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Copyright End -->
+        <!-- Copyright End -->
 
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
 
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-</body>
-
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
